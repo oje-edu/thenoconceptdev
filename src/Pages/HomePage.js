@@ -14,8 +14,8 @@ function HomePage () {
           und gerad bissi im Umschulungstress (FI-Anwendungsentwicklung).
         </p><br />
         <p className='h-sub-text'>
-          Aber ich bin der Überzeugung, dass durch meine seit bereits Jahrzehnten und niemals endenden autodidaktisch erlernten
-          Kenntnissen, in Bereich der Systemintegration nach der Umschulung diese beiden Synergien (ganz im Sinne von <a href='https://www.42heilbronn.de/de/' target='_blank' rel='noopener noreferrer'>42</a> [sorry IHK]) bündeln zu können um die Welt zu retten. Was sonst ?
+          Dennoch bin ich der Überzeugung, dass durch meine seit bereits Jahrzehnten andauernden und niemals endenden autodidaktisch erlernten
+          Kenntnissen, im Bereich der Systemintegration, erst nach der Umschulung, diese beiden Synergien (ganz im Sinne von <a href='https://www.42heilbronn.de/de/' target='_blank' rel='noopener noreferrer'>42</a> [sorry IHK]) ihre ganze Pracht entfalten können, um die Welt zu retten. Was sonst ?
         </p>
         <div className='icons'>
           <a href='https://twitter.com/0berfoerster' className='icon-holder' target='_blank' rel='noopener noreferrer'>
