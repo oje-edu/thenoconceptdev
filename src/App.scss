@@ -1,6 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Cutive+Mono&display=swap');
 @import './styles/variables';
+@import './styles/about';
+@import './styles/blog';
+@import './styles/contact';
 @import './styles/layout';
+@import './styles/typography';
+@import './styles/navbar';
+@import './styles/skill';
+@import './styles/portfolio';
+@import './styles/services';
+@import './styles/title';
 
 
 html {
@@ -20,5 +29,40 @@ body {
   color: $font-color;
 
   font-family: 'Cutive Mono', monospace;
-  font-size: .2rem;
+  font-size: 1.2rem;
+}
+
+body::-webkit-scrollbar{
+  width: 8px;
+}
+body::-webkit-scrollbar-thumb{
+  background-color: #0056d898;
+  border-radius: 50px;
+}
+body::-webkit-scrollbar-track{
+  background-color: #777;
+}
+
+span {
+  color: $main-blue-color;
+}
+
+@media screen and (max-width: 411px) {
+  html{
+      font-size: 70%;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  html{
+      font-size: 90%;
+  }
+}
+@media screen and (max-width: 480px){
+  h2{
+      font-size: 70%;
+  }
+  h3{
+      font-size: 70%;
+  }
 }
