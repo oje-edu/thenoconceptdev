@@ -39,33 +39,36 @@
 
     .content {
       margin: 5rem 15rem;
-      @media screen and (max-width: 1100px){
+      @media screen and (max-width: 1100px) {
         margin: 2rem 10rem;
       }
-      @media screen and (max-width: 1400px){
+
+      @media screen and (max-width: 1400px) {
         margin: 3rem 10rem;
       }
-      @media screen and (max-width: 1400px){
+
+      @media screen and (max-width: 1400px) {
         margin: 3rem 10rem;
       }
-      @media screen and (max-width: 710px){
+
+      @media screen and (max-width: 710px) {
         margin: 2rem 3rem;
       }
     }
-    @media screen and (max-width: 1000px){
+    @media screen and (max-width: 1000px) {
       margin-left: 0;
       width: 100%;
     }
   }
 }
 
-.nav-btn{
+.nav-btn {
   position: absolute;
   z-index: 10;
   right: 10%;
   top: 5%;
-  width: 4rem;
-  height: 4rem;
+  width: 2.5rem;
+  height: 2.5rem;
   display: none;
   display: flex;
   align-items: center;
@@ -73,13 +76,14 @@
   cursor: pointer;
 
   .lines-1, .lines-2, .lines-3 {
-    height: .4rem;
+    height: .3rem;
     width: 100%;
-    background-color: #3858cc;
+    background-color: $main-blue-color;
     pointer-events: none;
     display: none;
     border-radius: 20px;
-    &:not(:last-child){
+
+    &:not(:last-child) {
       margin-bottom: .5rem;
     }
   }
