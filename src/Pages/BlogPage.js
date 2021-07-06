@@ -6,7 +6,7 @@ function BlogPage () {
   return (
     <div>
       <div className='b-title'>
-        <Title title='Ähnliche Artikel' span='Ähnliche Artikel' />
+        <Title title='Letzte Beiträge' span='Mein Senf' />
       </div>
       <div className='BlogPage'>
         {
