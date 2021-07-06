@@ -54,7 +54,6 @@ function AboutPage () {
           text='Beschreibung: folgt.'
         />
       </div>
-
     </div>
   )
 }

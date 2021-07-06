@@ -6,7 +6,6 @@ import AboutPage from './Pages/AboutPage'
 import PortfolioPage from './Pages/PortfolioPage'
 import BlogPage from './Pages/BlogPage'
 import ContactPage from './Pages/ContactPage'
-
 import './App.scss'
 
 function App () {
