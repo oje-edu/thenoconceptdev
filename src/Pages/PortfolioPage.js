@@ -4,14 +4,14 @@ import MenuItems from '../Components/MenuItems'
 import Title from '../Components/Title'
 import portfolio from '../Components/allportfolio'
 
-const allCategories = ['Alle', ...new Set(portfolio.map(item => item.category))]
+const allCategories = ['Alles', ...new Set(portfolio.map(item => item.category))]
 
 function PortfolioPage () {
   const [categories, setCategories] = useState(allCategories)
   const [menuItems, setMenuItems] = useState(portfolio)
 
   const filter = (category) => {
-    if (category === 'Alle') {
+    if (category === 'Alles') {
       setMenuItems(portfolio)
       return
     }

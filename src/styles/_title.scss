@@ -6,7 +6,7 @@
   color: white;
   position: relative;
   padding-bottom: 1rem;
-  letter-spacing: 3px;
+  letter-spacing: 2px;
 
   &::before {
       content: "";
@@ -29,6 +29,7 @@
       height: .4rem;
       border-radius: 50px;
   }
+
   span {
       position: absolute;
       top: 75%;
