@@ -4,7 +4,7 @@ import blog3 from '../assets/img/blog/blog3.svg'
 import blog4 from '../assets/img/blog/blog4.svg'
 import blog5 from '../assets/img/blog/blog5.svg'
 
-const blogs = [
+const blog = [
   {
     id: 1,
     image: blog1,
@@ -79,4 +79,4 @@ const blogs = [
   }
 ]
 
-export default blogs
+export default blog

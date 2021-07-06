@@ -4,14 +4,14 @@ import MenuItems from '../Components/MenuItems'
 import Title from '../Components/Title'
 import portfolio from '../Components/allportfolio'
 
-const allCategories = ['All', ...new Set(portfolio.map(item => item.category))]
+const allCategories = ['Alle', ...new Set(portfolio.map(item => item.category))]
 
 function PortfolioPage () {
   const [categories, setCategories] = useState(allCategories)
   const [menuItems, setMenuItems] = useState(portfolio)
 
   const filter = (category) => {
-    if (category === 'All') {
+    if (category === 'Alle') {
       setMenuItems(portfolio)
       return
     }
@@ -24,7 +24,7 @@ function PortfolioPage () {
   return (
     <div className='PortfolioPage'>
       <div className='title'>
-        <Title title='Schaufenster' span='Kommste nei, kannste rausgugge!' />
+        <Title title='Schaufenster' span='Da guggste!' />
       </div>
       <div className='portfolio-data'>
         <Categories filter={filter} categories={categories} />
