@@ -22,7 +22,7 @@ function HomePage () {
           </p>
           <div className='icons'>
             <a href='https://twitter.com/0berfoerster' className='icon-holder' target='_blank' rel='noopener noreferrer'>
-              <FontAwesomeIcon icon={faTwitter} className='icon twitter' />
+              <FontAwesomeIcon icon={faTwitter} className='icon tw' />
             </a>
             <a href='https://github.com/oje-edu' className='icon-holder' target='_blank' rel='noopener noreferrer'>
               <FontAwesomeIcon icon={faGithub} className='icon gh' />

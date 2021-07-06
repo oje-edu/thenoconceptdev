@@ -9,7 +9,7 @@
 }
 
 
-.hero-text{
+.hero-text {
   color: white;
   text-align: center;
   font-size: 3.6rem;
@@ -18,32 +18,32 @@
   }
 }
 
-.h-sub-text{
+.h-sub-text {
   text-align: center;
 }
 
-.icons{
+.icons {
   display: flex;
   align-items: center;
   justify-content: center;
   padding: 1.5rem 0;
 
-  .icon-holder{
+  .icon-holder {
       margin-right: 1rem;
 
       .icon{
          font-size: 2.8rem;
-         color: #a4acc4;
+         color: $font-color;
          transition: all .4s ease-in-out;
       }
-      .fb:hover{
-          color: blue;
+      .tw:hover{
+          color: $main-blue-color;
       }
       .gh:hover{
-          color: rgba(212, 45, 212, 0.788);
+          color: rgba(212, 134, 45, 0.788);
       }
       .yt:hover{
-          color: red;
+          color: crimson;
       }
   }
 }

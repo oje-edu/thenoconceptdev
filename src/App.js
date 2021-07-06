@@ -7,6 +7,7 @@ import PortfolioPage from './Pages/PortfolioPage'
 import BlogPage from './Pages/BlogPage'
 import ContactPage from './Pages/ContactPage'
 import './App.scss'
+import Linkedin from './Pages/Linkedin'
 
 function App () {
   const [navToggle, setNavToggle] = useState(false)
@@ -16,7 +17,7 @@ function App () {
   }
 
   return (
-    <div className='App'>
+    <div className='app'>
       <div className={`sidebar ${navToggle ? 'nav-toggle' : ''}`}>
         <NavBar />
       </div>
@@ -33,6 +34,9 @@ function App () {
             </Route>
             <Route path='/about' exact>
               <AboutPage />
+            </Route>
+            <Route path='/linkedin' exact>
+              <Linkedin />
             </Route>
             <Route path='/portfolio' exact>
               <PortfolioPage />
