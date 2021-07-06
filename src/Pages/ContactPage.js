@@ -13,7 +13,7 @@ function ContactPage () {
       </div>
       <div className='ContactPage'>
         <div className='map-sect'>
-          <iframe src='' width='600' height='450' frameBorder='0' style={{ border: 0 }} allowFullScreen='' aria-hidden='false' tabIndex='0' />
+          <iframe src='https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d8741.856333728854!2d9.09327410164645!3d49.35272701634928!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sde!2sde!4v1625553385972!5m2!1sde!2sde' width='600' height='450' frameBorder='0' style={{ border: 0 }} allowFullScreen='' aria-hidden='false' tabIndex='0' />
         </div>
         <div className='contact-sect'>
           <ContactItem icon={phone} text1='+49 (0) 6261 8995117' text2='+49 (0) 151 -' title='Telefon' />
