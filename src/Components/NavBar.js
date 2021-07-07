@@ -25,11 +25,11 @@ function NavBar () {
               Beiträge
             </NavLink>
           </li>
-          <li className='nav-item'>
+          {/* <li className='nav-item'>
             <NavLink to='/linkedin' exact activeClassName='active'>
               Babbeln
             </NavLink>
-          </li>
+          </li> */}
           <li className='nav-item'>
             <NavLink to='/contact' exact activeClassName='active'>
               Kontakt
