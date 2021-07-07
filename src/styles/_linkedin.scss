@@ -1,4 +1,5 @@
 @import './variables';
+@import './feed';
 
 .linkedin {
   background-color: $sidebar-color;
@@ -61,8 +62,19 @@
       font-weight: bolder;
       cursor: pointer;
 
-      &__hash {
+      padding: 5px;
 
+      &:hover {
+        color: $font-color;
+        background-color: $before-bg-color;
+        border-radius: 10px;
+        cursor: pointer;
+      }
+
+      &__hash {
+        color: $main-border-color;
+        margin-left: 5px;
+        margin-right: 10px;
       }
     }
 
@@ -98,6 +110,11 @@
       text-align: center;
       border: 1px solid $main-border-color;
       border-radius: 10px;
+
+      > p {
+        font-size: 13px;
+        padding-bottom: 10px;
+      }
     }
   }
 }
