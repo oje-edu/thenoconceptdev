@@ -58,21 +58,21 @@
     &__recentItem {
       display: flex;
       font-size: 13px;
-      color: $main-border-color;
+      color: $font-color;
       font-weight: bolder;
       cursor: pointer;
 
       padding: 5px;
 
       &:hover {
-        color: $font-color;
+        color: $linkedin-font-color;
         background-color: $before-bg-color;
         border-radius: 10px;
         cursor: pointer;
       }
 
       &__hash {
-        color: $main-border-color;
+        color: $font-color;
         margin-left: 5px;
         margin-right: 10px;
       }
