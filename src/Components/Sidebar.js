@@ -2,6 +2,12 @@ import { Avatar } from '@material-ui/core'
 import React from 'react'
 
 function Sidebar () {
+  const recentItem = (topic) => (
+    <div className='linkedin__sidebar__recentItem'>
+      <span className='linkedin__sidebar__recentItem__hash'>#</span>
+      <p>{topic}</p>
+    </div>
+  )
   return (
     <div className='linkedin__sidebar'>
       <div className='linkedin__sidebar__top'>
@@ -22,6 +28,9 @@ function Sidebar () {
       </div>
       <div className='linkedin__sidebar__bottom'>
         <p>Letzte Beiträge</p>
+        {recentItem('reactjs')}
+        {recentItem('nodejs')}
+        {recentItem('webdesign')}
       </div>
     </div>
   )
