@@ -1,6 +1,6 @@
 @import './variables';
 
-.App {
+.app {
 
   .sidebar {
     width: 16%;
@@ -36,6 +36,10 @@
     // background-image: url(../assets/img/dots.svg);
     display: grid;
     position: relative;
+
+    a {
+      text-decoration: none;
+    }
 
     .content {
       margin: 5rem 15rem;

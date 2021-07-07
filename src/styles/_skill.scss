@@ -1,8 +1,8 @@
 @import './variables';
 
-.SkillsSection{
+.SkillsSection {
 
-.skills-container{
+.skills-container {
     .skill-title{
         font-size: 1.4rem;
         font-weight: 400;
@@ -11,9 +11,10 @@
     .skill-bar{
         display: flex;
         align-items: center;
-        .skill-text{
+        .skill-text {
+
         }
-        .skill-progress{
+        .skill-progress {
             width: 100%;
            .progress{
                width: 100%;
@@ -22,7 +23,8 @@
                margin-left: 1rem;
                background-color: $before-bg-color;
                position: relative;
-               .inner-pregress{
+
+               .inner-progress{
                     position: absolute;
                     background-color: $main-blue-color;
                     height: 100%;

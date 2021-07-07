@@ -36,7 +36,7 @@ function ImageSection () {
             <p>: Deutschland, Island, Dev(i)lopland</p>
           </div>
         </div>
-        <button className='btn'>Download Cv</button>
+        {/* <button className='btn'>Download Cv</button> */}
       </div>
     </div>
   )
