@@ -117,4 +117,59 @@
       }
     }
   }
+  &__login {
+    display: grid;
+    place-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 100px;
+    padding-bottom: 100px;
+
+    > img {
+      object-fit: contain;
+      height: 70px;
+      margin-top: 20px;
+      margin-bottom: 20px;
+      background-color: $linkedin-bg-color;
+      border: none;
+      border-radius: 5px;
+    }
+
+    > form {
+      display: flex;
+      flex-direction: column;
+
+      > input {
+        width: 365px;
+        height: 50px;
+        font-size: 20px;
+        padding-left: 10px;
+        margin-bottom: 10px;
+        border-radius: 5px;
+      }
+
+      > button {
+        width: 365px;
+        height: 50px;
+        font-size: large;
+        background-color: $linkedin-bg-color;
+        color: $linkedin-font-color;
+
+        border-radius: 5px;
+      }
+    }
+
+    > p {
+      margin-top: 20px;
+    }
+
+    &__register {
+      color: $linkedin-font-color;
+      cursor: pointer;
+
+      > p {
+        margin-top: 20px;
+      }
+    }
+  }
 }
