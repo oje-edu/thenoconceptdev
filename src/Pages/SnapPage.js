@@ -5,6 +5,7 @@ function Snap () {
   return (
     <div className='snap'>
       <WebcamCapture />
+
     </div>
   )
 }
