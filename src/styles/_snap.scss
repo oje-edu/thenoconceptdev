@@ -1,0 +1,182 @@
+@import './variables';
+
+.snap {
+  height: 80vh;;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  background-color: $bg-color;
+
+  &__webcam {
+    position: relative;
+
+    &__button {
+      position: absolute;
+      bottom: 0;
+      left: 50%;
+      transform: translate(-50%, -50%);
+
+      color: $font-color;
+
+      cursor: pointer;
+    }
+  }
+
+  &__preview {
+    position: relative;
+
+    &__close {
+      position: absolute;
+      top: 0;
+      margin: 5px;
+      font-size: 18px !important;
+      color: $font-color;
+      cursor: pointer;
+    }
+
+    &__toolbar  {
+
+      &__right {
+        color: $font-color !important;
+        position: absolute;
+        right: 0;
+        display: flex;
+        flex-direction: column;
+        margin: 5px;
+
+        > .MuiSvgIcon-root {
+          font-size: 20px !important;
+          margin-bottom: 8px;
+          cursor: pointer;
+        }
+      }
+    }
+
+    &__footer {
+      position: absolute;
+      bottom: 0;
+      right: -25px;
+      transform: translate(-50%, -50%);
+      background-color: $bg-color;
+      color: $font-color;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border-radius: 30px;
+      padding: 7px;
+      cursor: pointer;
+
+      > h2 {
+        font-size: 8px;
+        margin-right: 3px;
+      }
+      &__sendIcon {
+        font-size: 10px !important;
+      }
+    }
+  }
+
+  &__chats {
+    position: relative;
+    height: 400px;
+    width: 250px;
+
+    &__header {
+      height: 50px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding-left: 10px;
+      padding-right: 10px;
+
+      background-color: $main-blue-color;
+    }
+
+    &__avatar {
+      height: 25px !important;
+      width: 25px !important;
+    }
+
+    &__search {
+      display: flex;
+      align-items: center;
+      flex: 1;
+      padding-left: 8px;
+
+      > input {
+        outline: none;
+        background-color: transparent;
+        border: none;
+        font-size: 12px;
+        flex: 1;
+
+        color: $font-color;
+      }
+
+      > input::placeholder {
+        color: $font-color;
+        opacity: 1;
+      }
+    }
+
+    &__posts {
+      height: 359px;
+      background-color: $font-color;
+      box-shadow: 1px -7px 7px -6px rgba(0, 0, 0, 0.44);
+      border-top-left-radius: 10px;
+      border-top-right-radius: 10px;
+      margin-top: -9px;
+
+      overflow: scroll;
+      -ms-overflow-style: none;
+      scrollbar-width: none;
+
+      > h2 {
+        color: $sidebar-color;
+      }
+    }
+
+    &__posts::-webkit-scrollbar{
+      display: none;
+    }
+  }
+
+  &__chat {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 8px;
+    border-bottom: 1px solid whitesmoke;
+    cursor: pointer;
+
+    :hover {
+      opacity: 0.8;
+      transition: all 0.2s ease-in-out;
+    }
+
+    &__avatar {
+      height: 35px !important;
+      width: 35px !important;
+    }
+
+    &__info {
+      padding-left: 5px;
+      flex: 1;
+
+      > h4 {
+        font-size: 11px;
+        font-weight: 500;
+      }
+
+      > p {
+        font-size: 9px;
+      }
+    }
+
+    &__readIcon {
+      color: crimson;
+    }
+  }
+}

@@ -8,6 +8,8 @@ import PortfolioPage from './Pages/PortfolioPage'
 import BlogPage from './Pages/BlogPage'
 import ContactPage from './Pages/ContactPage'
 import './App.scss'
+import Preview from './Components/Preview'
+import Chats from './Components/Chats'
 
 function App () {
   const [navToggle, setNavToggle] = useState(false)
@@ -37,6 +39,12 @@ function App () {
             </Route>
             <Route path='/snap' exact>
               <SnapPage />
+            </Route>
+            <Route path='/preview' exact>
+              <Preview />
+            </Route>
+            <Route path='/chats' exact>
+              <Chats />
             </Route>
             <Route path='/portfolio' exact>
               <PortfolioPage />
