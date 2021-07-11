@@ -6,40 +6,40 @@ import blog4 from '../img/blogs/blog4.svg'
 const blogs = [
   {
     id: 1,
-    title: 'How To Work from Home',
-    date: '05',
-    month: 'April',
+    title: 'Noch nix',
+    date: '11',
+    month: 'Juli',
     image: blog1
   },
   {
     id: 2,
-    title: 'How To Use SEO Efficiently',
-    date: '04',
-    month: 'April',
+    title: 'Noch nix',
+    date: '10',
+    month: 'Juli',
     image: blog2
   },
   {
     id: 3,
-    title: 'How to choose a programming Language',
-    date: '03',
-    month: 'April',
+    title: 'Noch nix',
+    date: '09',
+    month: 'Juli',
     image: blog3,
-    link: 'https://www.google.de/'
+    link: '#'
   },
   {
     id: 4,
-    title: 'How To The SEO Efficiently',
-    date: '02',
-    month: 'April',
+    title: 'Noch nix',
+    date: '08',
+    month: 'Juli',
     image: blog4
   },
   {
     id: 5,
-    title: 'How To Google Efficiently',
-    date: '01',
-    month: 'April',
+    title: 'Hast den Bogen raus?',
+    date: '07',
+    month: 'Juli',
     image: blog4,
-    link: 'https://googlethatforyou.com?q=How%20To%20Google%20Efficiently'
+    link: '#'
   }
 ]
 
