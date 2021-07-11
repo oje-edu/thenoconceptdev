@@ -1,19 +1,57 @@
 import React from 'react'
+import styled from 'styled-components'
+import { InnerLayout } from '../styles/Layouts'
+import Title from '../Components/Title'
+import ServiceCard from '../Components/ServiceCard'
+import design from '../img/design.svg'
+import intelligence from '../img/intelligence.svg'
+import gamedev from '../img/game-dev.svg'
 
-function ServicesSection ({ image, title, text }) {
+function ServicesSection () {
   return (
-    <div className='ServicesSection'>
-      <div className='service'>
-        <div className='service-content'>
-          <img src={image} alt='' />
-          <h5 className='s-title'>{title}</h5>
-          <p className='s-text'>
-            {text}
-          </p>
+    <InnerLayout>
+      <ServicesSectionStyled>
+        <Title title={'Dienste'} span={'hiermit "spiel" ich von Natur aus gerne rum'} />
+        <div className='services'>
+          <ServiceCard
+            // image={design}
+            title={'Web Design'}
+            paragraph={'ganz ohne Plan, es entsteht meist duch Zufall (hoff ich).'}
+          />
+          <div className='mid-card'>
+            <ServiceCard
+              // image={intelligence}
+              title={'Virtualisierung'}
+              paragraph={'VMWare, oVirt, Solaris, ProxMox und Konsorten sind mir bestens bekannt. '}
+            />
+          </div>
+          <ServiceCard
+            // image={gamedev}
+            title={'CyberSecurity, Privacy, Datenschutz'}
+            paragraph={'Ohne dem, ohne mich!'}
+          />
         </div>
-      </div>
-    </div>
+      </ServicesSectionStyled>
+    </InnerLayout>
   )
 }
+
+const ServicesSectionStyled = styled.section`
+  .services{
+    margin-top: 5rem;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 1.5rem;
+    @media screen and (max-width:1000px){
+      flex-direction: column;
+    }
+    @media screen and (max-width:950px){
+      grid-template-columns: repeat(2, 1fr);
+    }
+    @media screen and (max-width:650px){
+      grid-template-columns: repeat(1, 1fr);
+    }
+  }
+`
 
 export default ServicesSection
