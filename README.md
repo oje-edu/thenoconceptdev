@@ -10,4 +10,4 @@ In Dev(i)lopment
 [best with](https://www.youtube.com/watch?v=ZZXcdK0RUuQ) 🎶
 
 
-ok... THIS COMMIT IS FOR PERFECTIONISM --- and NOT for my MOM ^^
+ok... THIS COMMIT IS FOR PERFECTIONISM --- and NOT for my MUM ^^
