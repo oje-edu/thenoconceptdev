@@ -31,42 +31,6 @@ const portfolios = [
     link2: '#',
     title: 'Spiel Animation',
     text: 'Sprites, Parallax und NPC'
-  },
-  {
-    id: 4,
-    category: 'Animation',
-    // image: img2,
-    link1: '#',
-    link2: '#',
-    title: 'How To Use Blender',
-    text: 'Free Animation Software'
-  },
-  {
-    id: 5,
-    category: 'Animation',
-    // image: img2,
-    link1: 'https://www.google.com',
-    link2: 'https://www.google.com',
-    title: 'How To Use Blender',
-    text: 'Free Animation Software'
-  },
-  {
-    id: 6,
-    category: 'React JS',
-    // image: react1,
-    link1: 'https://www.google.com',
-    link2: 'https://www.google.com',
-    title: 'Responsive Portfolio Website',
-    text: 'Created using different technologies such as Material UI, Styled-Components and more...'
-  },
-  {
-    id: 7,
-    category: 'CSS',
-    // image: css2,
-    link1: 'https://www.google.com',
-    link2: 'https://www.google.com',
-    title: 'Microsoft Website Clone',
-    text: 'Created using HTML and CSS'
   }
 ]
 

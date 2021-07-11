@@ -51,11 +51,10 @@ const TitleStyled = styled.div`
 
     span {
       font-weight: 900;
-      color: gray;
-      font-size: 2.5rem;
+      font-size: 2.0rem;
       position: absolute;
-      left: 120;
-      top: 50%;
+      left: 140px;
+      top: 45px;
       z-index: -1;
 
       @media screen and (max-width: 620px) {
