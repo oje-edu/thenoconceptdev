@@ -22,7 +22,7 @@ function Resume () {
             year={'Feb. 2021 - jetzt'}
             title={'Umschulung'}
             subTitle={'FIAE'}
-            text={'FachInformatik - Fachrichtung Anwendungsentwicklung '}
+            text={'FachInformatik - AnwendungsEntwicklung '}
           />
           <ResumeItem
             year={'Okt. 2020 - Feb. 2021'}
@@ -46,7 +46,7 @@ function Resume () {
             year={'1996 - Okt. 2019'}
             title={'SachSchnitzel, SeniorSchnitzel, Spezialist'}
             subTitle={'Deutsche Bank AG, e.t.b, Xchanging, db Investment-Services GmbH'}
-            text={'In 20 Jahren vom einfachen Schnitzel, über Senior Schnitzel zu Spezial(merkste was?)I S T E N in der effektiven Wertpapierabwicklung. NIX WERT! '}
+            text={'In 20 Jahren vom einfachen Schnitzel, über Senior Schnitzel zum Spezial(merkste was?)I S T E N in der effektiven Wertpapierabwicklung. NIX WERT! '}
           />
           <ResumeItem
             year={'1992 - 1996'}
@@ -63,7 +63,7 @@ function Resume () {
             year={'1986 - 1992'}
             title={'Brettergymnasium'}
             subTitle={'Weibelfeldschule (Dreieich/Sprendlingen)'}
-            text={'Hauptschulabschluss. Inkl. dem Klassenkasper Cum-Laude '}
+            text={'Hauptschulabschluss. Inkl. dem Klassenkasper "Cum-Laude" '}
           />
           <ResumeItem
             year={'1978 - 1986'}
