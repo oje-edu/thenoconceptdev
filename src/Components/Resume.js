@@ -12,7 +12,7 @@ function Resume () {
   const school = <SchoolIcon />
   return (
     <ResumeStyled>
-      <Title title={'Lebenslauf'} span={'vollbracht'} />
+      <Title title={'Lebenslauf'} span={'Grandmaster Kasper'} />
       <InnerLayout>
         <div className='small-title'>
           <SmallTitle icon={briefcase} title={'Berufserfahrung'} />
