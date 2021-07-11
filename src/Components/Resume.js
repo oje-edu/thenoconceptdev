@@ -22,7 +22,7 @@ function Resume () {
             year={'Feb. 2021 - jetzt'}
             title={'Umschulung'}
             subTitle={'FIAE'}
-            text={'FachInformatiker - Fachrichtung Anwendungsentwicklung '}
+            text={'FachInformatik - Fachrichtung Anwendungsentwicklung '}
           />
           <ResumeItem
             year={'Okt. 2020 - Feb. 2021'}
@@ -44,15 +44,15 @@ function Resume () {
           />
           <ResumeItem
             year={'1996 - Okt. 2019'}
-            title={'Sachbearbeiter, Seniorsachbearbeiter, Spezialist'}
+            title={'SachSchnitzel, SeniorSchnitzel, Spezialist'}
             subTitle={'Deutsche Bank AG, e.t.b, Xchanging, db Investment-Services GmbH'}
-            text={'IN 20 JAHREN VOM EINFACHEN SACHBEARBEITER ÜBER SENIOR SACHBEARBEITER ZUM SPEZIALISTEN in der effektiven Wetpapierabwicklung. NOTHING WORTH!. '}
+            text={'In 20 Jahren vom einfachen Schnitzel, über Senior Schnitzel zu Spezial(merkste was?)I S T E N in der effektiven Wertpapierabwicklung. NIX WERT! '}
           />
           <ResumeItem
             year={'1992 - 1996'}
             title={'Ausbildung zum Elektroinstallateur'}
-            subTitle={'Bester! mit Therorie 4 und Gesellenstück 2, von 44 haben auch nur 4 bestanden. NOTHING WORTH!'}
-            text={'DIE AUSBILDUNG ZUM ELEKTROINSTALLATEUR IST IN DEUTSCHLAND SEIT DEM 1. AUGUST 2004 NICHT MEHR MÖGLICH, DIE BERUFSBEZEICHNUNG WURDE DURCH ELEKTRONIKER/IN FÜR ENERGIE- UND GEBÄUDETECHNIK ERSETZT. '}
+            subTitle={'Bester! mit Therorie 4 und Gesellenstück 2, von 44 haben auch nur 4 bestanden. NIX WERT! '}
+            text={'Die Ausbildung zum Elektroinstallateur ist in Deutschland seit dem 01.08.2004 nicht mehr möglich, die Berufsbezeichung wurde durch Elektrik/er/in/schnitzel für Energie- und Gebäudetechnik ersetzt. '}
           />
         </div>
         <div className='small-title u-small-title-margin'>
