@@ -19,19 +19,31 @@ function Resume () {
         </div>
         <div className='resume-content'>
           <ResumeItem
-            year={'2021 - jetzt'}
+            year={'Feb. 2021 - jetzt'}
             title={'Umschulung'}
             subTitle={'FIAE'}
             text={'FachInformatiker - Fachrichtung Anwendungsentwicklung '}
           />
           <ResumeItem
-            year={'2019 - 2019'}
+            year={'Okt. 2020 - Feb. 2021'}
+            title={'Arbeitsamt'}
+            subTitle={'Arbeitssuchend '}
+            text={'Deutsche Firmen wollen noch immer einen IHK-Zettel... '}
+          />
+          <ResumeItem
+            year={'Feb. 2020 - Okt. 2020'}
+            title={'Jobcenter'}
+            subTitle={'Nicht verfügbar'}
+            text={'Krank '}
+          />
+          <ResumeItem
+            year={'Okt. 2019 - Feb. 2020'}
             title={'Umschulung'}
             subTitle={'Landwirt'}
             text={'Vorzeitiger Abbruch wegen Krankheit (unvorhersehbare Operation) '}
           />
           <ResumeItem
-            year={'1996 - 2019'}
+            year={'1996 - Okt. 2019'}
             title={'Sachbearbeiter, Seniorsachbearbeiter, Spezialist'}
             subTitle={'Deutsche Bank AG, e.t.b, Xchanging, db Investment-Services GmbH'}
             text={'IN 20 JAHREN VOM EINFACHEN SACHBEARBEITER ÜBER SENIOR SACHBEARBEITER ZUM SPEZIALISTEN in der effektiven Wetpapierabwicklung. NOTHING WORTH!. '}
@@ -48,10 +60,16 @@ function Resume () {
         </div>
         <div className='resume-content '>
           <ResumeItem
-            year={' - 1992'}
+            year={'1986 - 1992'}
             title={'Brettergymnasium'}
             subTitle={'Weibelfeldschule (Dreieich/Sprendlingen)'}
-            text={'Hauptschulabschluss. '}
+            text={'Hauptschulabschluss. Inkl. dem Klassenkasper Cum-Laude '}
+          />
+          <ResumeItem
+            year={'1978 - 1986'}
+            title={'div. Kindergärten...'}
+            subTitle={'Kasperle Theater'}
+            text={'Den Klassenkasper Abschluss jeweils mit bravour bestanden. '}
           />
         </div>
       </InnerLayout>
