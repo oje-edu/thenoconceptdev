@@ -1,6 +1,6 @@
 import parallax from '../img/portImages/parallax.jpeg'
 import sass from '../img/portImages/sass.jpeg'
-import moviedb from '../img/portImages/moviedb.jpeg'
+import moviedb from '../img/portImages/moviedb.png'
 import horizon from '../img/portImages/horizon.webp'
 import openshift from '../img/portImages/lab.webp'
 import goldenImage from '../img/portImages/win10-2.webp'
