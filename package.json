@@ -13,17 +13,9 @@
     "@testing-library/jest-dom": "^5.11.4",
     "@testing-library/react": "^11.1.0",
     "@testing-library/user-event": "^12.1.10",
-<<<<<<< HEAD
-    "glob-parent": "^5.1.2",
-    "color-string": "^1.5",
-    "postcss": "^8.2.10",
-    "ws": "^7.4.6",
-    "browserslist": "^4.16.5",
-=======
     "axios": "^0.21.1",
     "firebase": "^8.7.1",
     "glob-parent": "^5.1.2",
->>>>>>> testing
     "is-svg": "^4.2.2",
     "react": "^17.0.2",
     "react-chat-engine": "^1.10.9",
