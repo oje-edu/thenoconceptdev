@@ -16,9 +16,9 @@ function Navigation () {
         <li className='nav-item'>
           <NavLink to='/about' activeClassName='active-class' exact>Über</NavLink>
         </li>
-        <li className='nav-item'>
+        {/* <li className='nav-item'>
           <NavLink to='/chats' activeClassName='active-class' exact>Chat</NavLink>
-        </li>
+        </li> */}
         <li className='nav-item'>
           <NavLink to='/resume' activeClassName='active-class' exact>Lebenslauf</NavLink>
         </li>
