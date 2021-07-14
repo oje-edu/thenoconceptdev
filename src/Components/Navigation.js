@@ -33,7 +33,7 @@ function Navigation () {
         </li>
       </ul>
       <footer className='footer'>
-        <p>@2021-jetzt{' '}-<b>Der mit ohne Plan</b></p>
+        <p>@2021-jetzt{' '}<b>Der mit ohne Plan</b></p>
       </footer>
     </NavigationStyled>
   )
