@@ -24,9 +24,9 @@
       }
     }
 
-    .nav-items{
+    .nav-items {
       width: 100%;
-      .nav-item{
+      .nav-item {
         list-style: none;
         text-align: center;
         a {
@@ -51,7 +51,7 @@
             transition: transform .6s, .2s width .5s cubic-bezier(1,-0.16,.6,1.35);
           }
 
-          &:hover::before{
+          &:hover::before {
             width: 100%;
             transform: scale(1);
           }
@@ -59,10 +59,10 @@
       }
     }
 
-    .footer{
+    .footer {
         width: 100%;
         border-top: 1px solid $main-border-color;
-        p{
+        p {
             text-align: center;
             padding: 1rem 0;
         }
@@ -70,6 +70,6 @@
   }
 }
 
-.active{
+.active {
   background-color: $main-blue-color;
 }
