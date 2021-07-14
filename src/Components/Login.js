@@ -1,5 +1,5 @@
 import React from 'react'
-import { GoogleOutlined, GithubOutlined } from '@ant-design/icons'
+import { GithubOutlined } from '@ant-design/icons'
 import firebase from 'firebase/app'
 
 import { auth } from '../firebase'
@@ -24,13 +24,30 @@ const LoginCardStyled = styled.div`
   text-align: center;
   background-color: white;
   border-radius: 22px;
+
+  h2 {
+    margin: 10px 0 20px;
+  }
+
+  .login-button {
+    cursor: pointer;
+    color: white;
+    padding: 12px;
+    border-radius: 8px;
+    display: inline-block;
+  }
+
+  .github {
+    background-color: black;
+    color: white;
+  }
 `
 
 const Login = () => {
   return (
     <LoginStyled>
       <LoginCardStyled>
-        <h2>NOCONCEPT CHAT</h2>
+        <h2>THE NOCONCEPT CHAT</h2>
         {/* <div
           className='login-button google'
           onClick={() => auth.signInWithRedirect(new firebase.auth.GoogleAuthProvider())}

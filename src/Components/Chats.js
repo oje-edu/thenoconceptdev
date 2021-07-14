@@ -3,8 +3,9 @@ import { useHistory } from 'react-router-dom'
 import { ChatEngine } from 'react-chat-engine'
 import { auth } from '../firebase'
 import axios from 'axios'
-
 import { useAuth } from '../contexts/AuthContext'
+
+import styled from 'styled-components'
 
 const Chats = () => {
   const history = useHistory()
@@ -54,8 +55,39 @@ const Chats = () => {
 
   if (!user || loading) return 'Lade...'
 
+  const ChatsStyled = styled.div`
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100vw;
+    height: 100vh;
+
+    &__nav-bar {
+      width: 100%;
+      height: 66px;
+      background-color: #002766;
+
+      &__logo-tab {
+        position: absolute;
+        left: 22px;
+        top: 12px;
+        font-size: 32px;
+        font-weight: 700;
+        color: white;
+      }
+
+      &__logout-tab {
+        position: absolute;
+        top: 22px;
+        right: 22px;
+        color: white;
+        cursor: pointer;
+      }
+    }
+  `
+
   return (
-    <div className='chats'>
+    <ChatsStyled>
       <div className='chats__nav-bar'>
         <div className='chats__nav-bar__logo-tab'>
           NOCONCEPT CHAT
@@ -70,7 +102,7 @@ const Chats = () => {
         userName={user.email}
         userSecret={user.uid}
       />
-    </div>
+    </ChatsStyled>
   )
 }
 
