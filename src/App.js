@@ -1,10 +1,7 @@
 import { useState, useEffect } from 'react'
 import { Route, Switch as Switching } from 'react-router'
-<<<<<<< HEAD
-=======
 import Login from './Components/Login'
 import Chats from './Components/Chats'
->>>>>>> testing
 import Sidebar from './Components/Sidebar'
 import HomePage from './Pages/HomePage'
 import AboutPage from './Pages/AboutPage'
@@ -92,15 +89,12 @@ function App () {
           <Route path='/contact' exact>
             <ContactPage />
           </Route>
-<<<<<<< HEAD
-=======
           <Route path='/chats' exact>
             <Chats />
           </Route>
           <Route path='/login' exact>
             <Login />
           </Route>
->>>>>>> testing
         </Switching>
 
       </MainContentStyled>
