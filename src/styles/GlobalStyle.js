@@ -57,7 +57,6 @@ const GlobalStyle = createGlobalStyle`
   --scrollbar-thump-color: #6b6b6b;
   --scrollbar-track-color: #383838;
 }
-
 * {
   margin: 0;
   padding: 0;
@@ -89,7 +88,7 @@ body::-webkit-scrollbar-track {
   background-color: #383838;
 }
 
-textarea {
+textarea  {
   max-width: 100%;
 }
 
@@ -106,13 +105,12 @@ h1 {
 
   span {
     font-size: 4rem;
-
-    @media screen and (max-width: 502px) {
+    @media screen and (max-width: 502px){
       font-size: 3rem
     }
   }
 
-  @media screen and (max-width: 502px) {
+  @media screen and (max-width: 502px){
       font-size: 3rem
   }
 }

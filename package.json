@@ -3,6 +3,7 @@
   "version": "0.1.1",
   "private": true,
   "dependencies": {
+    "@ant-design/icons": "^4.6.2",
     "@fortawesome/fontawesome-svg-core": "^1.2.35",
     "@fortawesome/free-brands-svg-icons": "^5.15.3",
     "@fortawesome/react-fontawesome": "^0.1.14",
@@ -12,13 +13,20 @@
     "@testing-library/jest-dom": "^5.11.4",
     "@testing-library/react": "^11.1.0",
     "@testing-library/user-event": "^12.1.10",
+<<<<<<< HEAD
     "glob-parent": "^5.1.2",
     "color-string": "^1.5",
     "postcss": "^8.2.10",
     "ws": "^7.4.6",
     "browserslist": "^4.16.5",
+=======
+    "axios": "^0.21.1",
+    "firebase": "^8.7.1",
+    "glob-parent": "^5.1.2",
+>>>>>>> testing
     "is-svg": "^4.2.2",
     "react": "^17.0.2",
+    "react-chat-engine": "^1.10.9",
     "react-dom": "^17.0.2",
     "react-icons": "^4.2.0",
     "react-intersection-observer": "^8.32.0",

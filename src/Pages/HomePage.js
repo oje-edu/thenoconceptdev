@@ -1,6 +1,8 @@
 import React from 'react'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import TwitterIcon from '@material-ui/icons/Twitter'
 import GithubIcon from '@material-ui/icons/GitHub'
+import { faGitlab } from '@fortawesome/free-brands-svg-icons'
 import YoutubeIcon from '@material-ui/icons/YouTube'
 import styled from 'styled-components'
 import Particle from '../Components/Particle'
@@ -62,6 +64,12 @@ const HomePageStyled = styled.header`
             color: #5F4687;
           }
       }
+      .i-gitlab {
+          &:hover {
+            border: 2px solid #5F4687;
+            color: #5F4687;
+          }
+      }
     }
   }
 `
@@ -87,6 +95,9 @@ function HomePage () {
           </a>
           <a href='https://github.com/oje-edu' className='icon i-github' target='_blank' rel='noopener noreferrer'>
             <GithubIcon />
+          </a>
+          <a href='https://gitlab.com/noconcept-design' className='icon i-gitlab' target='_blank' rel='noopener noreferrer'>
+            <FontAwesomeIcon icon={faGitlab} />
           </a>
           <a href='https://youtube.com/channel/UC-p7KMht2kokesM0O9Q5tyg' className='icon i-youtube' target='_blank' rel='noopener noreferrer'>
             <YoutubeIcon />
