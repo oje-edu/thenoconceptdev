@@ -1,18 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Cutive+Mono&display=swap');
-@import './styles/variables';
-@import './styles/header';
-@import './styles/headeroption';
-@import './styles/about';
-@import './styles/blog';
-@import './styles/contact';
-@import './styles/layout';
-@import './styles/typography';
-@import './styles/navbar';
-@import './styles/skill';
-@import './styles/portfolio';
-@import './styles/services';
-@import './styles/title';
-@import './styles/linkedin';
+// @import './styles/variables';
+// @import './styles/header';
+// @import './styles/headeroption';
+// @import './styles/about';
+// @import './styles/blog';
+// @import './styles/contact';
+// @import './styles/layout';
+// @import './styles/typography';
+// @import './styles/navbar';
+// @import './styles/portfolio';
+// @import './styles/services';
+// @import './styles/title';
 
 
 html {
@@ -35,14 +33,14 @@ body {
   font-size: 1.2rem;
 }
 
-body::-webkit-scrollbar{
+body::-webkit-scrollbar {
   width: 8px;
 }
-body::-webkit-scrollbar-thumb{
+body::-webkit-scrollbar-thumb {
   background-color: #0056d898;
   border-radius: 50px;
 }
-body::-webkit-scrollbar-track{
+body::-webkit-scrollbar-track {
   background-color: #777;
 }
 
@@ -51,21 +49,21 @@ span {
 }
 
 @media screen and (max-width: 411px) {
-  html{
+  html {
       font-size: 70%;
   }
 }
 
 @media screen and (max-width: 700px) {
-  html{
+  html {
       font-size: 90%;
   }
 }
-@media screen and (max-width: 480px){
-  h2{
+@media screen and (max-width: 480px) {
+  h2 {
       font-size: 70%;
   }
-  h3{
+  h3 {
       font-size: 70%;
   }
 }

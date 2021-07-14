@@ -1,24 +1,29 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
+<<<<<<< HEAD
+import { BrowserRouter } from 'react-router-dom'
+=======
 import { BrowserRouter as Router } from 'react-router-dom'
-import './index.css'
+import { AuthProvider } from './contexts/AuthContext'
+>>>>>>> testing
 import App from './App'
-import { store } from './app/store'
-import { Provider } from 'react-redux'
-import reportWebVitals from './reportWebVitals'
+import GlobalStyle from './styles/GlobalStyle'
 
 ReactDOM.render(
   <React.StrictMode>
-    <Provider store={store}>
-      <Router>
+    <GlobalStyle />
+<<<<<<< HEAD
+    <BrowserRouter>
+      <App />
+    </BrowserRouter>
+=======
+    <Router>
+      <AuthProvider>
         <App />
-      </Router>
-    </Provider>
+      </AuthProvider>
+    </Router>
+>>>>>>> testing
+
   </React.StrictMode>,
   document.getElementById('root')
 )
-
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals()
