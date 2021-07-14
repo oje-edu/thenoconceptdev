@@ -1,5 +1,7 @@
 import { useState, useEffect } from 'react'
 import { Route, Switch as Switching } from 'react-router'
+import Login from './Components/Login'
+import Chats from './Components/Chats'
 import Sidebar from './Components/Sidebar'
 import HomePage from './Pages/HomePage'
 import AboutPage from './Pages/AboutPage'
@@ -61,12 +63,12 @@ function App () {
       </div>
 
       <MainContentStyled>
-        <div className='lines'>
+        {/* <div className='lines'>
           <div className='line-1' />
           <div className='line-2' />
           <div className='line-3' />
           <div className='line-4' />
-        </div>
+        </div> */}
 
         <Switching>
           <Route path='/' exact>
@@ -86,6 +88,12 @@ function App () {
           </Route>
           <Route path='/contact' exact>
             <ContactPage />
+          </Route>
+          <Route path='/chats' exact>
+            <Chats />
+          </Route>
+          <Route path='/login' exact>
+            <Login />
           </Route>
         </Switching>
 

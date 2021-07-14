@@ -1,5 +1,5 @@
 import React from 'react'
-import { GoogleOutlined } from '@ant-design/icons'
+import { GoogleOutlined, GithubOutlined } from '@ant-design/icons'
 import firebase from 'firebase/app'
 
 import { auth } from '../firebase'
@@ -30,12 +30,18 @@ const Login = () => {
   return (
     <LoginStyled>
       <LoginCardStyled>
-        <h2>YO zum Chat</h2>
-        <div
+        <h2>NOCONCEPT CHAT</h2>
+        {/* <div
           className='login-button google'
           onClick={() => auth.signInWithRedirect(new firebase.auth.GoogleAuthProvider())}
         >
           <GoogleOutlined /> Mit Google anmelden
+        </div> */}
+        <div
+          className='login-button github'
+          onClick={() => auth.signInWithRedirect(new firebase.auth.GithubAuthProvider())}
+        >
+          <GithubOutlined /> Mit Github anmelden
         </div>
         {/* <br /> <br />
         <div className='login-button facebook'>
