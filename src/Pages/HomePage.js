@@ -1,5 +1,6 @@
 import React from 'react'
 import TwitterIcon from '@material-ui/icons/Twitter'
+import GithubIcon from '@material-ui/icons/GitHub'
 import YoutubeIcon from '@material-ui/icons/YouTube'
 import styled from 'styled-components'
 import Particle from '../Components/Particle'
