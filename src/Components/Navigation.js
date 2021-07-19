@@ -3,11 +3,11 @@ import styled from 'styled-components'
 import { NavLink } from 'react-router-dom'
 import avatar from '../img/avatar.jpg'
 
-function Navigation () {
+function Navigation() {
   return (
     <NavigationStyled>
       <div className='avatar'>
-        <img src={avatar} alt='' />
+        <img src={ avatar } alt='' />
       </div>
       <ul className='nav-items'>
         <li className='nav-item'>
@@ -29,11 +29,14 @@ function Navigation () {
           <NavLink to='/blogs' activeClassName='active-class' exact>Beiträge</NavLink>
         </li>
         <li className='nav-item'>
+          <a href='https://chat.noconcept.dev' target='_blank' rel='noopener noreferrer' activeClassName='active-class'>Chat</a>
+        </li>
+        <li className='nav-item'>
           <NavLink to='/contact' activeClassName='active-class' exact>Kontakt</NavLink>
         </li>
       </ul>
       <footer className='footer'>
-        <p>@2021-jetzt{' '}<b>Der mit ohne Plan</b></p>
+        <p>@2021-jetzt{ ' ' }<b>Der mit ohne Plan</b></p>
       </footer>
     </NavigationStyled>
   )
