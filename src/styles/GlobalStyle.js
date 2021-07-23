@@ -133,8 +133,9 @@ h6 {
 //Floting Toggler
 .light-dark-mode {
   position: fixed;
-  right: 0;
-  top: 50%;
+  right: 15%;
+  top: 17vh;
+  transform: translate(-50%, -50%);
   background-color: var(--background-light-color-2);
   width: 6.5rem;
   height: 2.5rem;
@@ -142,6 +143,7 @@ h6 {
   display: flex;
   align-items: center;
   justify-content: center;
+  border-radius: 20px;
 
   svg {
     display: flex;

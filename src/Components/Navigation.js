@@ -1,6 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
 import { NavLink } from 'react-router-dom'
+import Divider from '@material-ui/core/Divider';
 import avatar from '../img/avatar.jpg'
 
 function Navigation() {
@@ -33,6 +34,12 @@ function Navigation() {
         </li>
         <li className='nav-item'>
           <NavLink to='/contact' activeClassName='active-class' exact>Kontakt</NavLink>
+        </li>
+        <li className='nav-item'>
+          <NavLink to='/impressum' activeClassName='active-class' exact>Impressum</NavLink>
+        </li>
+        <li className='nav-item'>
+          <NavLink to='/datenschutz' activeClassName='active-class' exact>Datenschutz</NavLink>
         </li>
       </ul>
       <footer className='footer'>
@@ -102,12 +109,14 @@ const NavigationStyled = styled.nav`
           opacity: 0.21;
           z-index: -1;
         }
+        &:hover::before {
+          width: 100%;
+          height: 100%;
+        }
       }
-
-      a:hover::before {
-        width: 100%;
-        height: 100%;
-      }
+    }
+    .rechtliches {
+      font-size: 0.8rem !important;
     }
   }
 

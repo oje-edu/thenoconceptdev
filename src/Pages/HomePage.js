@@ -12,7 +12,7 @@ const HomePageStyled = styled.header`
 
   .typography {
     position: absolute;
-    top: 50%;
+    top: 60%;
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
