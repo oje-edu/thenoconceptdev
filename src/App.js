@@ -9,6 +9,8 @@ import ResumePage from './Pages/ResumePage'
 import PortfoliosPage from './Pages/PortfoliosPage'
 import BlogsPage from './Pages/BlogsPage'
 import ContactPage from './Pages/ContactPage'
+import Impressum from './Pages/Impressum'
+import Datenschutz from './Pages/Datenschutz'
 import Brightness4Icon from '@material-ui/icons/Brightness4'
 import MenuIcon from '@material-ui/icons/Menu'
 import Switch from '@material-ui/core/Switch'
@@ -16,7 +18,7 @@ import { IconButton } from '@material-ui/core'
 
 import styled from 'styled-components'
 
-function App () {
+function App() {
   const [theme, setTheme] = useState('dark-theme')
   const [checked, setChecked] = useState(false)
   const [navToggle, setNavToggle] = useState(false)
@@ -37,7 +39,7 @@ function App () {
 
   return (
     <div className='App'>
-      <Sidebar navToggle={navToggle} />
+      <Sidebar navToggle={ navToggle } />
 
       <div className='theme'>
         <div className='light-dark-mode'>
@@ -47,17 +49,17 @@ function App () {
           <div className='right-content'>
             <Switch
               value=''
-              checked={checked}
-              inputProps={{ 'aria-label': '' }}
+              checked={ checked }
+              inputProps={ { 'aria-label': '' } }
               size='medium'
-              onClick={themeToggler}
+              onClick={ themeToggler }
             />
           </div>
         </div>
       </div>
 
       <div className='ham-burger-menu'>
-        <IconButton onClick={() => setNavToggle(!navToggle)}>
+        <IconButton onClick={ () => setNavToggle(!navToggle) }>
           <MenuIcon />
         </IconButton>
       </div>
@@ -94,6 +96,12 @@ function App () {
           </Route>
           <Route path='/login' exact>
             <Login />
+          </Route>
+          <Route path='/impressum' exact>
+            <Impressum />
+          </Route>
+          <Route path='/datenschutz' exact>
+            <Datenschutz />
           </Route>
         </Switching>
 
